@@ -1,0 +1,38 @@
+# Local environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+temp/
+.claude/
+AGENTS.md
+CLAUDE.md
+
+# Downloaded dependencies, model weights, and generated artifacts
+qnn_sdk/
+resource/
+models/
+qwen0.5b_onnx/
+*.onnx
+*.onnx.data
+*.safetensors
+*.gguf
+*.fmodel
+*.mnn
+hci_assistant/logs/
+hci_assistant/output/
+
+# Unrelated local IDE automation
+.github/modernize/
